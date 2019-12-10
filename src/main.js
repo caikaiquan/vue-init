@@ -2,12 +2,12 @@ import Vue from 'vue'
 import App from './App.vue'
 import router from './router'
 import store from './store'
-import '@/plugins/styles.scss'
-import '@/plugins/element.js'
+import '@/plugins/element/styles.scss'
+import '@/plugins/element/element.js'
 import '@/assets/css/base.scss'
 import '@/assets/css/public.css'
-import request from '@/plugins/uitl/api/request'
-import filters from '@/plugins/uitl/filter/index'
+import request from '@/plugins/api/request'
+import filters from '@/plugins/filter/index'
 Vue.config.productionTip = false
 Vue.prototype.$request = request
 // 全局过滤器
