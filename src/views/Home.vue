@@ -1,5 +1,6 @@
 <template>
   <div class="home">
+    <p>123</p>
     <HelloWorld msg="Welcome to Your Vue.js App123ss"/>
   </div>
 </template>
